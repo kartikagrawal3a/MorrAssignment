@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`match snapshot #1 1`] = `
+Array [
+  "  ",
+  <div
+    title="main"
+  >
+    <div
+      className="card"
+      title="card"
+    >
+      <img
+        alt="content_pic"
+        title="cardImg"
+      />
+    </div>
+    <p
+      className="info"
+      title="title"
+    />
+  </div>,
+]
+`;
+
+exports[`match snapshot #2 1`] = `
+Array [
+  "  ",
+  <div
+    title="main"
+  >
+    <div
+      className="card"
+      title="card"
+    >
+      <img
+        alt="content_pic"
+        title="cardImg"
+      />
+    </div>
+    <p
+      className="info"
+      title="title"
+    />
+  </div>,
+]
+`;

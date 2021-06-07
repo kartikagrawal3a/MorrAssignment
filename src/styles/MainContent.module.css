@@ -1,0 +1,23 @@
+.card{
+    height: 210px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.load{
+    font-size: 4em;
+    text-align: center;
+    padding: 20vh 0px;    
+}
+
+@media only screen and (max-width: 900px){
+    .load{
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width: 700px){
+    .load{
+        font-size: 2em;
+    }
+}

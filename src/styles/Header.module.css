@@ -1,0 +1,110 @@
+.header1{
+    background-color: rgb(49, 120, 252);
+    box-shadow: 0px 0px 10px 2px rgb(34, 34, 34);
+}
+.header2{
+    background-color: rgb(68, 68, 68);
+    box-shadow: 0px 0px 10px 2px rgb(34, 34, 34);
+    position: relative;
+    z-index: -1;
+}
+.header1Content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 13px 0px;
+}
+.header1Content p{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 2.3em;
+}
+.header1ContentPart{
+    display: flex;
+    align-items: center;
+}
+.header1ContentPart a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.9375em;
+    margin-right: 40px;
+}
+.header1ContentPart button{
+    border: 0;
+    outline: 0;
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    font-size: 1em;
+    font-weight: 700;
+}
+.header2Content{
+    padding: 15px 0px;
+}
+.header2Content p{
+    color: white;
+    font-size: 1.8em;
+}
+
+@media only screen and (max-width: 1000px){
+    .header1Content p{
+        font-size: 2em;
+    }
+    .header2Content p{
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .header1Content p{
+        font-size: 1.7em;
+    }
+    .header2Content p{
+        font-size: 1.2em;
+    }
+    .header1ContentPart a{
+        margin-right: 20px;
+    }
+    .header1ContentPart button{
+        font-size: 0.875em;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .header1Content p{
+        font-size: 1.3em;
+    }
+    .header2Content p{
+        font-size: 1em;
+    }
+    .header1ContentPart a{
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .header1Content p{
+        font-size: 1.1em;
+    }
+    .header2Content p{
+        font-size: 1em;
+    }
+    .header1ContentPart a{
+        margin-right: 10px;
+    }
+    .header1ContentPart button{
+        font-size: 0.8125em;
+        padding: 5px 10px;
+    }
+}
+@media only screen and (max-width: 340px){
+    .header1Content p{
+        font-size: 1em;
+    }
+    .header2Content p{
+        font-size: 0.9em;
+    }
+    .header1ContentPart a{
+        font-size: 0.875em;
+    }
+}

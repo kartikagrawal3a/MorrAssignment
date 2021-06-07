@@ -39,6 +39,38 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Folder Structure
+
+There are 2 main Folders i.e. **public** and **src**. 
+
+The Deployable solution is built in public folder with an entry point of **index.html**. Apart from this, it contains some files like logo192.png, manifest.json, robots.txt. 
+
+**src** folder contains the entire Source Code of the Assignment. It further contains 4 sub directories named as **Assets**, **Components**, **Styles**, **__tests__**. 
+- **Assets** folder contains all the media assets, such as images, videos, etc..
+- **Components** folder contains all the Components that are used in the Assignment.
+- **styles** folder contains CSS Modules for the respective components present inside Components folder.
+- **__tests__** folder contains Unit tests for respective Components along with Snapshots of component tree.
+
+Apart from sub directories **src** folder consists following files :
+- **App.js** is a sample React Component called "App" which we get when creating a new app. This Component contains Routes to the sub components i.e. **Home, Series, Movies**.
+- **App.css** file gives some stylig if needed which is used by **App** components.
+- **index.js** stores our main Render call from ReactDOM. It imports **App** component and tells React where to render it.
+- **index.css** stores the base styling of the Application (which is used in more than 1 component).
+
+## Architectural Decision
+
+- We have used **React** to build the Application. It facilitates the overall process of writing reusable components which boosts productivity and facilitates further maintenance. It uses concept of Virtual DOM which ensures Fast Rendering. It gaurantees stable code and is SEO friendly. There are many more points which makes **React** the best option for this purpose.
+- For styling the components we have used **CSS Modules**. A **CSS Module** is a file in which all class names and animation names are scoped locally by default. It provides Modular and Reusable CSS and avoid styling conflicts.
+-  We have used **react testing library** and **react-test-renderer** to test the components. **react testing library** is a very light-weight solution for testing react components. It also exposes a recommended way to find elements by a unique identifier like title, data-testid etc.. **resct-test-renderer** is an external package which makes it easy to grab a snapshot of the "DOM Tree" rendered by a React DOM without using a browser.
+
+## Are there any improvements you could make to your submission?
+
+Every Application have some flaws and Limitations. Though the code is already well managed, I could further improve the quality of code to make it more readable. Quality of Test could also be improved so that it can test the respective component more precisely.
+
+## What would you do differently if you were allocated more time?
+
+This a basic application which is developed in 48 easily. If I were allocated more time, I would add pagination feature in Home, Series and Movies Component so that in future, if count of Categories, Movies or Series increases, it would be handled easily by pagination feature. I would also improve the quality of Tests.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

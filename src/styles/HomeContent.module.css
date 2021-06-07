@@ -1,0 +1,25 @@
+.card{
+    height: 210px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -1;
+}
+.card .bg{
+    position: absolute;
+    font-size: 5.5em;
+    color: #555555;
+    z-index: -1;
+}
+.card > p{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.link1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}

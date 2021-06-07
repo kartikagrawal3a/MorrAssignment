@@ -1,0 +1,151 @@
+.footer{
+    background-color: rgb(34, 34, 34);
+    margin-top: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgba(192, 192, 192, 0.8);
+}
+.part1{
+    display: flex;
+    align-items: center;
+    padding: 40px 0px 20px;
+}
+.para11,.para12{
+    font-size: 0.9375em;
+}
+.para12{
+    margin-left: 15px;
+}
+.para11 span, .para12 span{
+    color:rgba(192, 192, 192, 0.8);
+}
+.para11 span, .para12 span, .link:not(:nth-child(1)){
+    display: inline-block;
+    margin-left: 15px;
+}
+.para2{
+    color: rgba(192, 192, 192, 0.7);
+    font-size: 0.875em;
+    padding-bottom: 50px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.fb, .twitter{
+    color: rgb(255, 255, 255);
+    font-size: 2.3em;
+}
+.insta{
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+}
+.twitter, .insta{
+    margin-left: 20px;
+}
+.social2,.apple,.playstore,.microsoft{
+    display: flex;
+}
+.apple, .playstore, .microsoft{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #777777;
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+.playstore, .microsoft{
+    margin-left: 20px;
+}
+.apple > img{
+    width: 25px;
+    height: 30px;
+}
+.playstore > img, .microsoft > img{
+    width: 30px;
+    height: 30px;
+}
+.appleContent, .playstoreContent, .microsoftContent{
+    color: rgb(255, 255, 255);
+}
+.appleContent{
+    margin-left: 10px;
+}
+.playstoreContent{
+    margin-left: 8px;
+}
+.microsoftContent{
+    margin-left: 5px;
+}
+.appleContent > p:nth-child(1), .playstoreContent > p:nth-child(1), .microsoftContent > p:nth-child(1){
+    font-size: 0.6875em;
+}
+.appleContent > p:nth-child(2), .playstoreContent > p:nth-child(2), .microsoftContent > p:nth-child(2){
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width:850px){
+    .para12, .para11 span, .para12 span, .link:not(:nth-child(1)){
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width:775px){
+    .para12, .para11 span, .para12 span, .link:not(:nth-child(1)){
+        margin-left: 8px;
+    }
+    .playstore, .microsoft,.twitter, .insta{
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width:748px){
+    .part1{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .para12{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .para11 span:last-of-type{
+        display: none;
+    }
+    .para2{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 700px){
+    .social{
+        flex-direction: column;
+    }
+    .social2{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .social2{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .playstore, .microsoft{
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .apple, .playstore, .microsoft{
+        width: fit-content;
+    }
+}
+@media only screen and (max-width: 400px){
+    .para11, .para12{
+        text-align: center;
+        line-height: 20px;
+    }
+    .para2{
+        line-height: 20px;
+    }
+}

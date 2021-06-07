@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`match snapshot #1 1`] = `
+Array [
+  <div
+    className="header1"
+    title="header1Container"
+  >
+    <div
+      className="container"
+      title="fixedContainer1"
+    >
+      <div
+        className="header1Content"
+        title="header1Content"
+      >
+        <p
+          title="header1ContentPart1"
+        >
+          DEMO Streaming
+        </p>
+        <div
+          className="header1ContentPart"
+          title="header1ContentPart"
+        >
+          <a
+            href="/"
+            title="loginLink"
+          >
+            Log in
+          </a>
+          <button
+            title="btn"
+          >
+            Start your free trail
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="header2"
+    title="header2Container"
+  >
+    <div
+      className="container"
+      title="fixedContainer2"
+    >
+      <div
+        className="header2Content"
+        title="header2Content"
+      >
+        <p
+          title="header2ContentPart"
+        >
+          Popular Titles
+        </p>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`match snapshot #2 1`] = `
+Array [
+  <div
+    className="header1"
+    title="header1Container"
+  >
+    <div
+      className="container"
+      title="fixedContainer1"
+    >
+      <div
+        className="header1Content"
+        title="header1Content"
+      >
+        <p
+          title="header1ContentPart1"
+        >
+          DEMO Streaming
+        </p>
+        <div
+          className="header1ContentPart"
+          title="header1ContentPart"
+        >
+          <a
+            href="/"
+            title="loginLink"
+          >
+            Log in
+          </a>
+          <button
+            title="btn"
+          >
+            Start your free trail
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="header2"
+    title="header2Container"
+  >
+    <div
+      className="container"
+      title="fixedContainer2"
+    >
+      <div
+        className="header2Content"
+        title="header2Content"
+      >
+        <p
+          title="header2ContentPart"
+        >
+          Popular Series
+        </p>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`match snapshot #3 1`] = `
+Array [
+  <div
+    className="header1"
+    title="header1Container"
+  >
+    <div
+      className="container"
+      title="fixedContainer1"
+    >
+      <div
+        className="header1Content"
+        title="header1Content"
+      >
+        <p
+          title="header1ContentPart1"
+        >
+          DEMO Streaming
+        </p>
+        <div
+          className="header1ContentPart"
+          title="header1ContentPart"
+        >
+          <a
+            href="/"
+            title="loginLink"
+          >
+            Log in
+          </a>
+          <button
+            title="btn"
+          >
+            Start your free trail
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="header2"
+    title="header2Container"
+  >
+    <div
+      className="container"
+      title="fixedContainer2"
+    >
+      <div
+        className="header2Content"
+        title="header2Content"
+      >
+        <p
+          title="header2ContentPart"
+        >
+          Popular Movies
+        </p>
+      </div>
+    </div>
+  </div>,
+]
+`;
